@@ -9,4 +9,4 @@ myLabel.textAlignment = .center
 myLabel.font = UIFont(name: "Georgia", size: 24)
 myLabel
 
-
+let image = UIImage(named: "waterfall")
