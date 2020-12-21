@@ -15,6 +15,10 @@
 		B9DD65922590D7AA00E2B610 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9DD65902590D7AA00E2B610 /* LaunchScreen.storyboard */; };
 		B9DD659D2590D7AA00E2B610 /* ListNavDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DD659C2590D7AA00E2B610 /* ListNavDemoTests.swift */; };
 		B9DD65A82590D7AA00E2B610 /* ListNavDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DD65A72590D7AA00E2B610 /* ListNavDemoUITests.swift */; };
+		B9DD65C22590D96C00E2B610 /* carData.json in Resources */ = {isa = PBXBuildFile; fileRef = B9DD65C12590D96C00E2B610 /* carData.json */; };
+		B9DD65C72590D9AC00E2B610 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DD65C62590D9AC00E2B610 /* Car.swift */; };
+		B9DD65CC2590DA6700E2B610 /* CarData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DD65CB2590DA6700E2B610 /* CarData.swift */; };
+		B9DD65D12590DE3200E2B610 /* CarStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DD65D02590DE3200E2B610 /* CarStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +54,10 @@
 		B9DD65A72590D7AA00E2B610 /* ListNavDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNavDemoUITests.swift; sourceTree = "<group>"; };
 		B9DD65A92590D7AA00E2B610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9DD65BD2590D83400E2B610 /* CarAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CarAssets.xcassets; sourceTree = "<group>"; };
+		B9DD65C12590D96C00E2B610 /* carData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = carData.json; path = ../../../SwiftUI/CarData/carData.json; sourceTree = "<group>"; };
+		B9DD65C62590D9AC00E2B610 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		B9DD65CB2590DA6700E2B610 /* CarData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarData.swift; sourceTree = "<group>"; };
+		B9DD65D02590DE3200E2B610 /* CarStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,9 +113,13 @@
 				B9DD65872590D7A800E2B610 /* SceneDelegate.swift */,
 				B9DD65892590D7A800E2B610 /* ContentView.swift */,
 				B9DD658B2590D7AA00E2B610 /* Assets.xcassets */,
+				B9DD65C12590D96C00E2B610 /* carData.json */,
 				B9DD65902590D7AA00E2B610 /* LaunchScreen.storyboard */,
 				B9DD65932590D7AA00E2B610 /* Info.plist */,
 				B9DD658D2590D7AA00E2B610 /* Preview Content */,
+				B9DD65C62590D9AC00E2B610 /* Car.swift */,
+				B9DD65CB2590DA6700E2B610 /* CarData.swift */,
+				B9DD65D02590DE3200E2B610 /* CarStore.swift */,
 			);
 			path = ListNavDemo;
 			sourceTree = "<group>";
@@ -241,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9DD65C22590D96C00E2B610 /* carData.json in Resources */,
 				B9DD65922590D7AA00E2B610 /* LaunchScreen.storyboard in Resources */,
 				B9DD658F2590D7AA00E2B610 /* Preview Assets.xcassets in Resources */,
 				B9DD658C2590D7AA00E2B610 /* Assets.xcassets in Resources */,
@@ -270,6 +283,9 @@
 			files = (
 				B9DD65862590D7A800E2B610 /* AppDelegate.swift in Sources */,
 				B9DD65882590D7A800E2B610 /* SceneDelegate.swift in Sources */,
+				B9DD65CC2590DA6700E2B610 /* CarData.swift in Sources */,
+				B9DD65C72590D9AC00E2B610 /* Car.swift in Sources */,
+				B9DD65D12590DE3200E2B610 /* CarStore.swift in Sources */,
 				B9DD658A2590D7A800E2B610 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
