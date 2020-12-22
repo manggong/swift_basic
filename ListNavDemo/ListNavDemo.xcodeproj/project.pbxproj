@@ -39,7 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B9DD65822590D7A800E2B610 /* ListNavDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListNavDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9B7DA5C2592093B00126502 /* ListNavDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = ListNavDemo.app; path = "/Users/kimjihwan/Desktop/projects/swift_basic/ListNavDemo/build/Debug-iphoneos/ListNavDemo.app"; sourceTree = "<absolute>"; };
+		B9B7DA5D2592093B00126502 /* ListNavDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ListNavDemoTests.xctest; path = "/Users/kimjihwan/Desktop/projects/swift_basic/ListNavDemo/build/Debug-iphoneos/ListNavDemoTests.xctest"; sourceTree = "<absolute>"; };
+		B9B7DA5E2592093B00126502 /* ListNavDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ListNavDemoUITests.xctest; path = "/Users/kimjihwan/Desktop/projects/swift_basic/ListNavDemo/build/Debug-iphoneos/ListNavDemoUITests.xctest"; sourceTree = "<absolute>"; };
 		B9DD65852590D7A800E2B610 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9DD65872590D7A800E2B610 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B9DD65892590D7A800E2B610 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,10 +49,8 @@
 		B9DD658E2590D7AA00E2B610 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B9DD65912590D7AA00E2B610 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B9DD65932590D7AA00E2B610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B9DD65982590D7AA00E2B610 /* ListNavDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ListNavDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9DD659C2590D7AA00E2B610 /* ListNavDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNavDemoTests.swift; sourceTree = "<group>"; };
 		B9DD659E2590D7AA00E2B610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B9DD65A32590D7AA00E2B610 /* ListNavDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ListNavDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9DD65A72590D7AA00E2B610 /* ListNavDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNavDemoUITests.swift; sourceTree = "<group>"; };
 		B9DD65A92590D7AA00E2B610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9DD65BD2590D83400E2B610 /* CarAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CarAssets.xcassets; sourceTree = "<group>"; };
@@ -91,24 +91,12 @@
 				B9DD65842590D7A800E2B610 /* ListNavDemo */,
 				B9DD659B2590D7AA00E2B610 /* ListNavDemoTests */,
 				B9DD65A62590D7AA00E2B610 /* ListNavDemoUITests */,
-				B9DD65832590D7A800E2B610 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		B9DD65832590D7A800E2B610 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B9DD65822590D7A800E2B610 /* ListNavDemo.app */,
-				B9DD65982590D7AA00E2B610 /* ListNavDemoTests.xctest */,
-				B9DD65A32590D7AA00E2B610 /* ListNavDemoUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		B9DD65842590D7A800E2B610 /* ListNavDemo */ = {
 			isa = PBXGroup;
 			children = (
-				B9DD65BD2590D83400E2B610 /* CarAssets.xcassets */,
 				B9DD65852590D7A800E2B610 /* AppDelegate.swift */,
 				B9DD65872590D7A800E2B610 /* SceneDelegate.swift */,
 				B9DD65892590D7A800E2B610 /* ContentView.swift */,
@@ -127,6 +115,7 @@
 		B9DD658D2590D7AA00E2B610 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				B9DD65BD2590D83400E2B610 /* CarAssets.xcassets */,
 				B9DD658E2590D7AA00E2B610 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -167,7 +156,7 @@
 			);
 			name = ListNavDemo;
 			productName = ListNavDemo;
-			productReference = B9DD65822590D7A800E2B610 /* ListNavDemo.app */;
+			productReference = B9B7DA5C2592093B00126502 /* ListNavDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 		B9DD65972590D7AA00E2B610 /* ListNavDemoTests */ = {
@@ -185,7 +174,7 @@
 			);
 			name = ListNavDemoTests;
 			productName = ListNavDemoTests;
-			productReference = B9DD65982590D7AA00E2B610 /* ListNavDemoTests.xctest */;
+			productReference = B9B7DA5D2592093B00126502 /* ListNavDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		B9DD65A22590D7AA00E2B610 /* ListNavDemoUITests */ = {
@@ -203,7 +192,7 @@
 			);
 			name = ListNavDemoUITests;
 			productName = ListNavDemoUITests;
-			productReference = B9DD65A32590D7AA00E2B610 /* ListNavDemoUITests.xctest */;
+			productReference = B9B7DA5E2592093B00126502 /* ListNavDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -237,7 +226,7 @@
 				Base,
 			);
 			mainGroup = B9DD65792590D7A800E2B610;
-			productRefGroup = B9DD65832590D7A800E2B610 /* Products */;
+			productRefGroup = B9DD65792590D7A800E2B610;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (

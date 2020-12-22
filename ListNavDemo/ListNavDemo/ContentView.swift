@@ -8,9 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @ObservedObject var carStore: CarStore = CarStore(cars: carData)
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        List{
+            ForEach (carStore.cars) { car in
+                
+                HStack{
+                    Image(car.imageName)
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 100, height: 60)
+                    Text(car.name)
+                }
+            }
+        }
     }
 }
 
